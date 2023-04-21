@@ -1,5 +1,7 @@
 # Author: Jaward Sesay - Jaykef (苏杰)
 # 2023-04-15
+# A simple implementation of a GPT that predicts the next word when given a prompt
+
 
 # Import pytorch libraries
 import torch
