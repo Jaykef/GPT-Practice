@@ -1,3 +1,6 @@
+# Author: Jaward Sesay - Jaykef (苏杰)
+# Date: 2023-4-29
+
 import torch
 import torch.nn as nn
 
