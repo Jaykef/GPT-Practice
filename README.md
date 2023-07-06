@@ -6,8 +6,11 @@ My hands-on prictice with transformers
 
 ## Learning Roadmap
 <a href="https://github.com/Jaykef/GPT-Practice/edit/main/README.md#:~:text=GPT%2D-,Basic,-GPT%2DIntermediate" >1. GPT Basics </a>
+
 <a href="" >2. GPT Intermediate </a>
+
 <a href="https://github.com/Jaykef/GPT-Practice/edit/main/README.md#:~:text=GPT%2D-,Basic,-GPT%2DIntermediate" >3. Huggingface Transformer</a>
+
 <a href="https://github.com/Jaykef/GPT-Practice/edit/main/README.md#:~:text=GPT%2D-,Basic,-GPT%2DIntermediate" >4. GPT Apps</a>
 
 ## References
