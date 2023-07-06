@@ -13,6 +13,33 @@ Let's explore the key components of the Transformer architecture usingg some Pyt
    computes attention scores between each word and all other words in the sequence, capturing the relationships and dependencies. Here's a Python
    implementation of self-attention:
 
+   ```
+   import torch
+   import torch.nn as nn
+   
+   class SelfAttention(nn.Module):
+       def __init__(self, hidden_size):
+           super(SelfAttention, self).__init__()
+           self.hidden_size = hidden_size
+           
+           self.query = nn.Linear(hidden_size, hidden_size)
+           self.key = nn.Linear(hidden_size, hidden_size)
+           self.value = nn.Linear(hidden_size, hidden_size)
+           
+       def forward(self, inputs):
+           Q = self.query(inputs)
+           K = self.key(inputs)
+           V = self.value(inputs)
+           
+           scores = torch.matmul(Q, K.transpose(-2, -1))
+           attention_weights = torch.softmax(scores, dim=-1)
+           
+           output = torch.matmul(attention_weights, V)
+           
+           return output, attention_weights
+   ```
+
+
 ### Using already built GPTs
 1. Importing Required Libraries:
    
