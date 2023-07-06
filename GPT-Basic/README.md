@@ -21,7 +21,7 @@ GPT (Generative Pre-trained Transformer) is a type of language model that utiliz
    model = GPT2LMHeadModel.from_pretrained(model_name)
    tokenizer = GPT2Tokenizer.from_pretrained(model_name)
    ```
-4. Generating Text with GPT:
+4. Generating Text with GPTs:
    
    Using the pre-trained GPT model, you can generate text by providing a prompt or an initial input sequence. The model predicts the next token in
    the sequence based on the provided context.
@@ -37,7 +37,7 @@ GPT (Generative Pre-trained Transformer) is a type of language model that utiliz
    In the generate_text function, we encode the prompt using the tokenizer, generate text with the model's generate method, and decode the generated
    output into readable text.
 
-5. Fine-tuning GPT:
+5. Fine-tuning GPTs:
 
    GPT models can also be fine-tuned on specific tasks by training them on domain-specific data or by adding task-specific layers on top of the pre
    trained model. Fine-tuning allows the model to adapt to the specific nuances and requirements of the target task.
