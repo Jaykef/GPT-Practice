@@ -2,7 +2,7 @@
 
 GPT (Generative Pre-trained Transformer) is a type of language model that utilizes the Transformer architecture to generate human-like text. It is trained on a large corpus of text data and can be fine-tuned for specific natural language processing tasks. 
 
-The Transformer architecture, proposed in the paper "Attention Is All You Need," revolutionized natural language processing tasks by introducing a self-attention mechanism. It has been widely adopted for various sequence-to-sequence tasks, including machine translation and language generation.
+The Transformer architecture, proposed in the paper "Attention Is All You Need" revolutionized natural language processing tasks by introducing a self-attention mechanism. It has been widely adopted for various sequence-to-sequence tasks, including machine translation and language generation.
 
 ### Building The GPT
 
