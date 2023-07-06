@@ -7,7 +7,7 @@ My hands-on learning experience with transformers (GPTs)
 ## Learning Roadmap
 <a href="https://github.com/Jaykef/GPT-Practice/tree/main/GPT-Basic" >1. GPT Basics - definition, code implementation, use guide</a>
 
-<a href="https://github.com/Jaykef/GPT-Practice/tree/main/GPT-Intermediate" >2. GPT Advance - high level overview, research papers, applications </a>
+<a href="https://github.com/Jaykef/GPT-Practice/tree/main/GPT-Advance" >2. GPT Advance - high level overview, research papers, applications </a>
 
 <a href="https://github.com/Jaykef/GPT-Practice/edit/main/README.md#:~:text=GPT%2D-,Basic,-GPT%2DIntermediate" >3. Huggingface Transformer - provides APIs and tools to easily download and train state-of-the-art pretrained models </a>
 
