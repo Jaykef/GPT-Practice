@@ -4,6 +4,10 @@ My hands-on prictice with transformers
    
 <img src='gpt.png' />
 
+## Roadmap
+<ul>
+   <a href="https://github.com/Jaykef/GPT-Practice/edit/main/README.md#:~:text=GPT%2D-,Basic,-GPT%2DIntermediate" > GPT Basics </a>
+</ul>
 
 ## References
 1. Readings
