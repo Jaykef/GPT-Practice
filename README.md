@@ -5,7 +5,7 @@ This repo contains source code for my hands-on prictice with transformers
 <img src='gpt.png' />
 
 
-# References
+## References
 1. Readings
    <a href="https://jalammar.github.io/illustrated-transformer/"> The Illustrated Transformer </a> - by Jay Alammar
 3. Repos
