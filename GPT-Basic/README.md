@@ -4,11 +4,12 @@ GPT (Generative Pre-trained Transformer) is a type of language model that utiliz
 
 The Transformer architecture, proposed in the paper "Attention Is All You Need," revolutionized natural language processing tasks by introducing a self-attention mechanism. It has been widely adopted for various sequence-to-sequence tasks, including machine translation and language generation.
 
-### Building a GPT
+### Building The GPT
 
 Let's explore the key components of the Transformer architecture using some Python code snippets:
 
 1. Self-Attention Mechanism:
+
    The self-attention mechanism allows the model to weigh the importance of different words in the input sequence when generating the output. It
    computes attention scores between each word and all other words in the sequence, capturing the relationships and dependencies. Here's a Python
    implementation of self-attention:
@@ -37,6 +38,38 @@ Let's explore the key components of the Transformer architecture using some Pyth
            output = torch.matmul(attention_weights, V)
            
            return output, attention_weights
+   ```
+
+2. Encoder:
+   
+   The encoder consists of a stack of identical layers, each containing a self-attention mechanism and a position-wise feed-forward neural
+   network. The self-attention mechanism captures dependencies between words in the input sequence, while the feed-forward network applies non
+   linear transformations to each position separately. Here's a Python implementation of the encoder layer:
+
+   ```
+   class EncoderLayer(nn.Module):
+    def __init__(self, hidden_size, num_heads, ff_dim, dropout_rate=0.1):
+        super(EncoderLayer, self).__init__()
+        
+        self.self_attention = SelfAttention(hidden_size)
+        self.feed_forward = nn.Sequential(
+            nn.Linear(hidden_size, ff_dim),
+            nn.ReLU(),
+            nn.Linear(ff_dim, hidden_size)
+        )
+        self.layer_norm = nn.LayerNorm(hidden_size)
+        self.dropout = nn.Dropout(dropout_rate)
+        
+    def forward(self, inputs):
+        attention_output, _ = self.self_attention(inputs)
+        attention_output = self.dropout(attention_output)
+        residual_output = self.layer_norm(inputs + attention_output)
+        
+        feed_forward_output = self.feed_forward(residual_output)
+        feed_forward_output = self.dropout(feed_forward_output)
+        output = self.layer_norm(residual_output + feed_forward_output)
+        
+        return output
    ```
 
 
