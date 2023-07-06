@@ -5,13 +5,13 @@ My hands-on learning experience with transformers (GPTs)
 <img src='gpt.png' />
 
 ## Learning Roadmap
-<a href="https://github.com/Jaykef/GPT-Practice/edit/main/README.md#:~:text=GPT%2D-,Basic,-GPT%2DIntermediate" >1. GPT Basics </a>
+<a href="https://github.com/Jaykef/GPT-Practice/tree/main/GPT-Basic" >1. GPT Basics - definition, code implementation, use guide</a>
 
-<a href="" >2. GPT Intermediate </a>
+<a href="https://github.com/Jaykef/GPT-Practice/tree/main/GPT-Intermediate" >2. GPT Advance - high level overview, research papers, applications </a>
 
-<a href="https://github.com/Jaykef/GPT-Practice/edit/main/README.md#:~:text=GPT%2D-,Basic,-GPT%2DIntermediate" >3. Huggingface Transformer</a>
+<a href="https://github.com/Jaykef/GPT-Practice/edit/main/README.md#:~:text=GPT%2D-,Basic,-GPT%2DIntermediate" >3. Huggingface Transformer - provides APIs and tools to easily download and train state-of-the-art pretrained models </a>
 
-<a href="https://github.com/Jaykef/GPT-Practice/edit/main/README.md#:~:text=GPT%2D-,Basic,-GPT%2DIntermediate" >4. GPT Apps</a>
+<a href="https://github.com/Jaykef/GPT-Practice/edit/main/README.md#:~:text=GPT%2D-,Basic,-GPT%2DIntermediate" >4. GPT Apps - real life applications of GPT (e.g ChatGPT)</a>
 
 ## References
 1. Readings
@@ -22,6 +22,7 @@ My hands-on learning experience with transformers (GPTs)
          
       <li><a href="https://arxiv.org/pdf/1607.06450.pdf"> Layer Normalization - Google</li> 
       <li><a href="https://en.wikipedia.org/wiki/Matrix_multiplication"> Matrix multiplication - Wikepedia</li> 
+      <li><a href="https://karpathy.ai/stateofgpt.pdf"> The State of GPT - Andrej Karpathy</li>
    </ul>
    
    
