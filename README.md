@@ -1,5 +1,5 @@
 # Transformers-Practice
-My hands-on prictice with transformers 
+My hands-on learning experience with transformers (GPTs)
 
    
 <img src='gpt.png' />
