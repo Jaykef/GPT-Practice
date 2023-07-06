@@ -7,6 +7,11 @@ This repo contains source code for my hands-on prictice with transformers
 
 ## References
 1. Readings
-   <a href="https://jalammar.github.io/illustrated-transformer/"> The Illustrated Transformer </a> - by Jay Alammar
+   <ul>
+      <li><a href="https://jalammar.github.io/illustrated-transformer/"> The Illustrated Transformer </a> - by Jay Alammar</li>
+   </ul>
+   
 3. Repos
-   <a href="https://jalammar.github.io/illustrated-transformer/"> nonoGPT </a> - by Andrej Karpathy
+   <ul>
+      <li><a href="https://jalammar.github.io/illustrated-transformer/"> nonoGPT </a> - by Andrej Karpathy
+   </ul>
