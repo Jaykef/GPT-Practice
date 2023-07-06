@@ -41,7 +41,7 @@ GPT (Generative Pre-trained Transformer) is a type of language model that utiliz
 
    Here's an example of fine-tuning GPT for a text classification task using the transformers library:
 
-   ```
+   <code>
    from transformers import GPT2ForSequenceClassification, GPT2Tokenizer, AdamW
 
    # Load pre-trained GPT model and tokenizer
@@ -69,5 +69,5 @@ GPT (Generative Pre-trained Transformer) is a type of language model that utiliz
            loss.backward()
            optimizer.step()
            optimizer.zero_grad()
-   ```
+   </code>
 
