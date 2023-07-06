@@ -8,10 +8,10 @@ My hands-on prictice with transformers
 ## References
 1. Readings
    <ul>
-      <li><a href="https://arxiv.org/pdf/1706.03762.pdf"> Attension is All You Need </a> - Google</li>
-      <li><a href="https://jalammar.github.io/illustrated-transformer/"> The Illustrated Transformer </a> - by Jay Alammar</li>
-      <li><a href="https://openai.com/research/techniques-for-training-large-neural-networks"> Techniques for training large neural networks</li> - Open AI
-      <li><a href="https://en.wikipedia.org/wiki/Matrix_multiplication"> Matrix multiplication</li> - Wikepedia
+      <li><a href="https://arxiv.org/pdf/1706.03762.pdf"> Attension is All You Need - Google</a> </li>
+      <li><a href="https://jalammar.github.io/illustrated-transformer/"> The Illustrated Transformer - by Jay Alammar </a> </li>
+      <li><a href="https://openai.com/research/techniques-for-training-large-neural-networks"> Techniques for training large neural networks  - Open AI</li>
+      <li><a href="https://en.wikipedia.org/wiki/Matrix_multiplication"> Matrix multiplication - Wikepedia</li> 
    </ul>
    
    
