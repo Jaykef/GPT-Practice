@@ -31,3 +31,43 @@ GPT (Generative Pre-trained Transformer) is a type of language model that utiliz
     generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
     return generated_text
    ```
+
+   In the generate_text function, we encode the prompt using the tokenizer, generate text with the model's generate method, and decode the generated
+   output into readable text.
+
+4. Fine-tuning GPT:
+   GPT models can also be fine-tuned on specific tasks by training them on domain-specific data or by adding task-specific layers on top of the pre
+   trained model. Fine-tuning allows the model to adapt to the specific nuances and requirements of the target task.
+
+   Here's an example of fine-tuning GPT for a text classification task using the transformers library:
+
+   ```
+   from transformers import GPT2ForSequenceClassification, GPT2Tokenizer, AdamW
+
+   # Load pre-trained GPT model and tokenizer
+   model_name = "gpt2"
+   model = GPT2ForSequenceClassification.from_pretrained(model_name)
+   tokenizer = GPT2Tokenizer.from_pretrained(model_name)
+   
+   # Prepare training data
+   train_dataset = ...
+   train_dataloader = ...
+   
+   # Fine-tuning setup
+   optimizer = AdamW(model.parameters(), lr=2e-5)
+   epochs = 5
+   
+   # Fine-tuning loop
+   for epoch in range(epochs):
+       for batch in train_dataloader:
+           inputs = tokenizer(batch['text'], truncation=True, padding=True, return_tensors="pt")
+           labels = batch['labels']
+   
+           outputs = model(**inputs, labels=labels)
+           loss = outputs.loss
+   
+           loss.backward()
+           optimizer.step()
+           optimizer.zero_grad()
+   ```
+
