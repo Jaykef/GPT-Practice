@@ -4,13 +4,14 @@ GPT (Generative Pre-trained Transformer) is a type of language model that utiliz
 
 ### Using already built GPTs
 1. Importing Required Libraries:
+   
    To use already built GPTs, you'll need to import the necessary libraries. The popular transformers library by Hugging Face provides pre-trained
    GPT models and utilities for text generation.
    ```
    from transformers import GPT2LMHeadModel, GPT2Tokenizer
    ```
 
-2. Loading the Pre-trained Model and Tokenizer:
+3. Loading the Pre-trained Model and Tokenizer:
 
    GPT models are pre-trained on massive amounts of text data, making them proficient in generating coherent and contextually relevant text. We can
    load a pre-trained GPT model and its associated tokenizer.
@@ -20,7 +21,8 @@ GPT (Generative Pre-trained Transformer) is a type of language model that utiliz
    model = GPT2LMHeadModel.from_pretrained(model_name)
    tokenizer = GPT2Tokenizer.from_pretrained(model_name)
    ```
-3. Generating Text with GPT:
+4. Generating Text with GPT:
+   
    Using the pre-trained GPT model, you can generate text by providing a prompt or an initial input sequence. The model predicts the next token in
    the sequence based on the provided context.
    ```
@@ -35,7 +37,7 @@ GPT (Generative Pre-trained Transformer) is a type of language model that utiliz
    In the generate_text function, we encode the prompt using the tokenizer, generate text with the model's generate method, and decode the generated
    output into readable text.
 
-4. Fine-tuning GPT:
+5. Fine-tuning GPT:
 
    GPT models can also be fine-tuned on specific tasks by training them on domain-specific data or by adding task-specific layers on top of the pre
    trained model. Fine-tuning allows the model to adapt to the specific nuances and requirements of the target task.
