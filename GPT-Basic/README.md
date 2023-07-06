@@ -23,3 +23,11 @@ GPT (Generative Pre-trained Transformer) is a type of language model that utiliz
 3. Generating Text with GPT:
    Using the pre-trained GPT model, you can generate text by providing a prompt or an initial input sequence. The model predicts the next token in
    the sequence based on the provided context.
+   ```
+   def generate_text(prompt, max_length=100):
+    inputs = tokenizer.encode(prompt, return_tensors="pt")
+    outputs = model.generate(inputs, max_length=max_length, num_return_sequences=1)
+
+    generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    return generated_text
+   ```
