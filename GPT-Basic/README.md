@@ -36,6 +36,7 @@ GPT (Generative Pre-trained Transformer) is a type of language model that utiliz
    output into readable text.
 
 4. Fine-tuning GPT:
+
    GPT models can also be fine-tuned on specific tasks by training them on domain-specific data or by adding task-specific layers on top of the pre
    trained model. Fine-tuning allows the model to adapt to the specific nuances and requirements of the target task.
 
