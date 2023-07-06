@@ -6,7 +6,7 @@ The Transformer architecture, proposed in the paper "Attention Is All You Need,"
 
 ### Building a GPT
 
-Let's explore the key components of the Transformer architecture usingg some Python code snippets:
+Let's explore the key components of the Transformer architecture using some Python code snippets:
 
 1. Self-Attention Mechanism:
    The self-attention mechanism allows the model to weigh the importance of different words in the input sequence when generating the output. It
