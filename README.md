@@ -4,9 +4,9 @@ My hands-on prictice with transformers
    
 <img src='gpt.png' />
 
-## Roadmap
+## Learning Roadmap
 <ul>
-   <a href="https://github.com/Jaykef/GPT-Practice/edit/main/README.md#:~:text=GPT%2D-,Basic,-GPT%2DIntermediate" > GPT Basics </a>
+   <a href="https://github.com/Jaykef/GPT-Practice/edit/main/README.md#:~:text=GPT%2D-,Basic,-GPT%2DIntermediate" >1. GPT Basics </a>
 </ul>
 
 ## References
