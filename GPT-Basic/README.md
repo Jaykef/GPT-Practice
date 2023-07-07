@@ -1,4 +1,4 @@
-# GPT (Generative Pretrained Model) Overview
+# GPT (Generative Pretrained Transformer) Overview
 
 GPT (Generative Pre-trained Transformer) is a type of language model that utilizes the Transformer architecture to generate human-like text. It is trained on a large corpus of text data and can be fine-tuned for specific natural language processing tasks. 
 
