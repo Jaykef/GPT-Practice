@@ -5,7 +5,7 @@
 <img src='gpt.png' />
 
 ## 学习路线图
-<a href="https://github.com/Jaykef/GPT-Practice/tree/main/GPT-Basic" >1. GPT基础 - 定义、代码实现、用户指南</a>
+<a href="https://github.com/Jaykef/GPT-Practice/blob/main/GPT-Basic/chinese.md" >1. GPT基础 - 定义、代码实现、用户指南</a>
 
 <a href="https://github.com/Jaykef/GPT-Practice/tree/main/GPT-Advance" >2. GPT高级概述、研究论文、应用 </a>
 
