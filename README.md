@@ -1,4 +1,4 @@
-# Transformers-Practice | <a href="">中文README</a>
+# Transformers-Practice | <a href="">中文Readme</a>
 My hands-on learning experience with transformers (GPTs)
 
 
