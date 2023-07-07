@@ -1,4 +1,4 @@
-# Transformers-Practice | <a href="">中文Readme</a>
+# Transformers-Practice | <a href="https://github.com/Jaykef/GPT-Practice/blob/main/Chinese.md">中文Readme</a>
 My hands-on learning experience with transformers (GPTs)
 
 
