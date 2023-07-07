@@ -14,7 +14,7 @@ My hands-on learning experience with transformers (GPTs) - <a href="https://gith
 <a href="https://github.com/Jaykef/GPT-Practice/edit/main/README.md#:~:text=GPT%2D-,Basic,-GPT%2DIntermediate" >4. GPT Apps - real life applications of GPT (e.g ChatGPT, Jarvis) </a>
 
 ## References
-1. Learning Roadmap
+1. Readings
    <ul>
       <li><a href="https://arxiv.org/pdf/1706.03762.pdf"> Attension is All You Need Paper - Google</a> </li>
       <li><a href="https://jalammar.github.io/illustrated-transformer/"> The Illustrated Transformer - by Jay Alammar </a> </li>
