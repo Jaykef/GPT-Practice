@@ -1,5 +1,5 @@
 
-# Gpt（生成预训练变压器）概述
+# GPT（生成预训练变压器）概述
 
 GPT（Generative Pre-trained Transformer）是一种语言模型，利用Transformer架构生成类似人类的文本。 它在大量文本数据的语料库上进行训练，可以针对特定的自然语言处理任务进行微调。
 
