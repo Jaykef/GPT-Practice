@@ -29,5 +29,6 @@ My hands-on learning experience with transformers (GPTs) - <a href="https://gith
 3. Repos
    <ul>
       <li><a href="https://jalammar.github.io/illustrated-transformer/"> nonoGPT </a> - by Andrej Karpathy
+      <li><a hred="https://github.com/harvardnlp/annotated-transformer">The Annotated Transformer</a> - Harvard</li>
       <li><a href="https://github.com/tensorflow/tensor2tensor">Tensor2Tensor - Tensorflow implementation of the transformer</li>
    </ul>
