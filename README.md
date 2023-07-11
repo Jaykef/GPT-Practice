@@ -22,6 +22,7 @@ My hands-on learning experience with transformers (GPTs) - <a href="https://gith
       <li><a href="https://openai.com/research/techniques-for-training-large-neural-networks"> Techniques for training large neural networks - Open AI</li>
       <li><a href="https://huggingface.co/docs/transformers/">Huggingface Transformer</a></li>
       <li><a href="https://karpathy.ai/stateofgpt.pdf"> The State of GPT - Andrej Karpathy</li>
+      <li><a href="https://cs231n.github.io/">CS231n Convolutional Neural Networks for Visual Recognition - Stanford</a></li>
       <li><a href="https://arxiv.org/pdf/1607.06450.pdf"> Layer Normalization - Google</li> 
       <li><a href="https://en.wikipedia.org/wiki/Matrix_multiplication"> Matrix multiplication - Wikepedia</li> 
    </ul>
