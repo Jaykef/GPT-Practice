@@ -29,6 +29,6 @@
    
 3. Repos
    <ul>
-      <li><a href="https://jalammar.github.io/illustrated-transformer/"> nonoGPT </a> - by Andrej Karpathy
+      <li><a href="https://jalammar.github.io/illustrated-transformer/"> nanoGPT </a> - by Andrej Karpathy
       <li><a href="https://github.com/tensorflow/tensor2tensor">Tensor2Tensor - transformer的Tensorflow实现</li>
    </ul>
