@@ -20,6 +20,7 @@ My hands-on learning experience with transformers (GPTs) - <a href="https://gith
       <li><a href="https://jalammar.github.io/illustrated-transformer/"> The Illustrated Transformer - by Jay Alammar </a> </li>
       <li><a href="http://nlp.seas.harvard.edu/2018/04/03/attention.html">The Annotated Transformer - Harvard NLP</li>
       <li><a href="https://openai.com/research/techniques-for-training-large-neural-networks"> Techniques for training large neural networks - Open AI</li>
+      <li><a href="https://huggingface.co/docs/transformers/">Huggingface Transformer</a></li>
       <li><a href="https://karpathy.ai/stateofgpt.pdf"> The State of GPT - Andrej Karpathy</li>
       <li><a href="https://arxiv.org/pdf/1607.06450.pdf"> Layer Normalization - Google</li> 
       <li><a href="https://en.wikipedia.org/wiki/Matrix_multiplication"> Matrix multiplication - Wikepedia</li> 
