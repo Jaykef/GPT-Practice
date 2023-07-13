@@ -23,6 +23,7 @@
       <li><a href="https://openai.com/research/techniques-for-training-large-neural-networks"> 训练大型神经网络的技术  - Open AI</li>
       <li><a href="https://karpathy.ai/stateofgpt.pdf"> GPT的状态 - Andrej Karpathy</li>
       <li><a href="https://arxiv.org/pdf/1607.06450.pdf"> 层规范化 - Google</li> 
+      <li><a href="http://introtodeeplearning.com/">Intro to Deep Learning - MIT</a></li>
       <li><a href="https://en.wikipedia.org/wiki/Matrix_multiplication"> 矩阵乘法 - Wikepedia</li> 
    </ul>
    
