@@ -9,9 +9,11 @@ My hands-on learning experience with transformers (GPTs) - <a href="https://gith
 
 <a href="https://github.com/Jaykef/GPT-Practice/tree/main/GPT-Advance" >2. GPT Advance - high level overview, research papers, applications </a>
 
-<a href="https://github.com/Jaykef/GPT-Practice/edit/main/README.md#:~:text=GPT%2D-,Basic,-GPT%2DIntermediate" >3. Huggingface Transformer - provides APIs and tools to easily download and train state-of-the-art pretrained models </a>
+<a href="https://github.com/Jaykef/GPT-Practice/tree/main/The-Annotated-Transformer" >3. The Anotated Transformer - Havard </a>
 
-<a href="https://github.com/Jaykef/GPT-Practice/edit/main/README.md#:~:text=GPT%2D-,Basic,-GPT%2DIntermediate" >4. GPT Apps - real life applications of GPT (e.g ChatGPT, Jarvis) </a>
+<a href="https://github.com/Jaykef/GPT-Practice/edit/main/README.md#:~:text=GPT%2D-,Basic,-GPT%2DIntermediate" >4. Huggingface Transformer - provides APIs and tools to easily download and train state-of-the-art pretrained models </a>
+
+<a href="https://github.com/Jaykef/GPT-Practice/edit/main/README.md#:~:text=GPT%2D-,Basic,-GPT%2DIntermediate" >5. GPT Apps - real life applications of GPT (e.g ChatGPT, Jarvis) </a>
 
 ## References
 1. Readings
