@@ -42,3 +42,44 @@ def attn_map(attn, layer, head, row_tokens, col_tokens, max_dim=30):
         .properties(height=400, width=400)
         .interactive()
     )
+
+
+def get_encoder(model, layer):
+    return model.encoder.layers[layer].self_attn.attn
+
+
+def get_decoder_self(model, layer):
+    return model.decoder.layers[layer].self_attn.attn
+
+
+def get_decoder_src(model, layer):
+    return model.decoder.layers[layer].src_attn.attn
+
+
+def visualize_layer(model, layer, getter_fn, ntokens, row_tokens, col_tokens):
+    # ntokens = last_example[0].ntokens
+    attn = getter_fn(model, layer)
+    n_heads = attn.shape[1]
+    charts = [
+        attn_map(
+            attn,
+            0,
+            h,
+            row_tokens=row_tokens,
+            col_tokens=col_tokens,
+            max_dim=ntokens,
+        )
+        for h in range(n_heads)
+    ]
+    assert n_heads == 8
+    return alt.vconcat(
+        charts[0]
+        # | charts[1]
+        | charts[2]
+        # | charts[3]
+        | charts[4]
+        # | charts[5]
+        | charts[6]
+        # | charts[7]
+        # layer + 1 due to 0-indexing
+    ).properties(title="Layer %d" % (layer + 1))
