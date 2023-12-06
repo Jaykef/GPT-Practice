@@ -8,3 +8,8 @@ The Transformer follows this overall architecture using stacked self-attention a
 
 Encoder
 The encoder is composed of a stack of N=6 identical layers.
+```
+def clones(module, N):
+    "Produce N identical layers."
+    return nn.ModuleList([copy.deepcopy(module) for _ in range(N)])
+```
