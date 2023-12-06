@@ -5,9 +5,6 @@ The Transformer follows this overall architecture using stacked self-attention a
 <img src="../transf.png" />
 
 ### Encoder and Decoder Stacks
+
 Encoder
-The encoder is composed of a stack of 
-�
-=
-6
-N=6 identical layers.
+The encoder is composed of a stack of N=6 identical layers.
