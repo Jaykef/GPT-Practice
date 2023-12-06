@@ -1,3 +1,3 @@
 The Transformer follows this overall architecture using stacked self-attention and point-wise, fully connected layers for both the encoder and decoder, shown in the left and right halves of Figure 1, respectively.
 
-![image]('https://github.com/Jaykef/GPT-Practice/blob/main/The-Annotated-Transformer/transf.png')
+![image]("https://github.com/Jaykef/GPT-Practice/blob/main/The-Annotated-Transformer/transf.png")
