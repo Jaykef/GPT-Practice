@@ -15,7 +15,7 @@ My hands-on learning experience with transformers (GPTs) - <a href="https://gith
 </ul>
 
 ## References
-1. Readings
+Readings
    <ul>
       <li><a href="https://arxiv.org/pdf/1706.03762.pdf"> Attension is All You Need Paper - Google</a> </li>
       <li><a href="https://jalammar.github.io/illustrated-transformer/"> The Illustrated Transformer - by Jay Alammar </a> </li>
@@ -31,7 +31,7 @@ My hands-on learning experience with transformers (GPTs) - <a href="https://gith
    </ul>
    
    
-3. Repos
+Repos
    <ul>
       <li><a href="https://jalammar.github.io/illustrated-transformer/"> nanoGPT </a> - by Andrej Karpathy
       <li><a href="https://github.com/harvardnlp/annotated-transformer">The Annotated Transformer</a> - Harvard</a></li>
