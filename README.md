@@ -1,8 +1,8 @@
 # Transformers-Practice
 My hands-on learning experience with transformers (GPTs) - <a href="https://github.com/Jaykef/GPT-Practice/blob/main/Chinese.md">中文 Readme</a>
 
+![Image 2024-4-17 at 21 10 3](https://github.com/Jaykef/GPT-Practice/assets/11355002/8a939cf4-c1ec-41d0-87a0-167968a3042c)
 
-<img src='gpt.png' />
 
 ## Learning Roadmap
 
